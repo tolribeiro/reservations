@@ -11,10 +11,7 @@
 #import "Service.h"
 #import "Singleton.h"
 
-@interface ScheduleViewController : UIViewController <UICollectionViewDataSource, UICollectionViewDelegate, UITextFieldDelegate, UIPickerViewDelegate, UIPickerViewDataSource>
-@property (weak, nonatomic) IBOutlet UILabel *serviceTitle;
-@property (weak, nonatomic) IBOutlet UILabel *servicePrice;
-@property (weak, nonatomic) IBOutlet UILabel *serviceDuration;
-@property (weak, nonatomic) IBOutlet UILabel *serviceDescription;
+@interface ScheduleViewController : UIViewController <UITextFieldDelegate, UITableViewDelegate, UITableViewDataSource>
+
 
 @end
